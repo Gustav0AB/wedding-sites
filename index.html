@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./light/src/css/lightbox.css" rel="stylesheet">
+  <title>SCSS Example</title>
+</head>
+<body>
+    <div class="hero-shot">
+        <div class="hero-shot__content container" data-aos="fade-up">
+            <h1 class="hero-shot__title">SCSS Example</h1>
+            <p class="hero-shot__text">This is a simple example of how to use SCSS in your project.</p>
+            <a href="#" class="hero-shot__btn">Learn More</a>
+        </div>
+    </div>
+    <div class="countdown">
+        <h2 data-aos="fade-right">31 de Diciembre de 2024</h2>
+        <div id="countdown-timer" data-aos="fade-left">
+            <span id="days"></span> Dias 
+            <span id="hours"></span> Horas 
+            <span id="minutes"></span> Minutos 
+            <span id="seconds"></span> Segundos
+        </div>
+    </div>
+    <div class="itinerary">
+        <h2>Itinerary</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Event 1</h5>
+                            <p class="card-text">Description of Event 1.</p>
+                            <a href="https://maps.google.com/?q=Event+1+Location" class="btn btn-primary" target="_blank">View on Map</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Event 2</h5>
+                            <p class="card-text">Description of Event 2.</p>
+                            <a href="https://maps.google.com/?q=Event+2+Location" class="btn btn-primary" target="_blank">View on Map</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Event 3</h5>
+                            <p class="card-text">Description of Event 3.</p>
+                            <a href="https://maps.google.com/?q=Event+3+Location" class="btn btn-primary" target="_blank">View on Map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <a href="img.jpg" data-lightbox="wedding-gallery"><img src="./img.jpg" alt="Image 1"></a>
+        <a href="img.jpg" data-lightbox="wedding-gallery"><img src="./img.jpg" alt="Image 2"></a>
+        <a href="./img.jpg" data-lightbox="wedding-gallery"><img src="./img.jpg" alt="Image 3"></a>
+        <a href="./img.jpg" data-lightbox="wedding-gallery"><img src="./img.jpg" alt="Image 1"></a>
+        <a href="./img.jpg" data-lightbox="wedding-gallery"><img src="./img.jpg" alt="Image 2"></a>
+        <a href="./img.jpg" data-lightbox="wedding-gallery"><img src="./img.jpg" alt="Image 3"></a>
+        <!-- Add more images as needed -->
+      </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!-- Bootstrap JS and dependencies -->
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+   <script src="./light/dist/js/lightbox-plus-jquery.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

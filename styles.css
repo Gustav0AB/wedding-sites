@@ -1,0 +1,80 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+}
+.hero-shot{
+    background-image:url("https://via.placeholder.com/1200x720");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-shot .hero-shot__content{
+    padding: 360px 0 100px;
+}
+
+.countdown {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+#countdown-timer {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#countdown-timer span {
+    display: inline-block;
+    min-width: 50px;
+}
+
+
+.itinerary {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.itinerary .row{
+    flex-direction: column;
+    align-items: center;
+}
+.itinerary .card {
+    margin-bottom: 20px;
+}
+
+.itinerary .card-body {
+    text-align: left;
+}
+
+.itinerary .btn {
+    margin-top: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.gallery a {
+    display: block;
+    width: 320px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
