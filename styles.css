@@ -6,7 +6,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6, p{ 
     margin: 0;
-    font-family: "Dancing Script", system-ui;
+    font-family: "Montserrat", system-ui;
     text-transform: capitalize;
 }
 a.btn{
@@ -31,7 +31,7 @@ a:hover{
     background-attachment: fixed;
 }
 .hero-shot .hero-shot__content{
-    padding: 360px 0 100px;
+    padding: 600px 0 60px;
 }
 
 .countdown {
